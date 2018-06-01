@@ -1,0 +1,46 @@
+<nav>
+  <div class="mobile-navigation visible-xs">
+      <div class="logo-container"><a href="#"><img src="assets/img/logo.png" alt="Logo"></a></div>
+      <div class="navigation-trigger">
+          <a href="#"><i class="fa {{menu}}" (click)="showMenu()" ></i></a>
+      </div>
+  </div>
+  <div class="mobile-links-list-container" [ngStyle]="{'display': display}">
+      <ul>
+          <li><a href="#cover">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact" >Contact</a></li>
+      </ul>
+      <ul class="social">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+  </div>
+</nav>
+<div class="pusher visible-xs"></div>
+
+<header>
+    <div class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="logo-hidden-xs"><a href="#"><img src="assets/img/logo.png" alt="Logo"></a></div>
+                </div>
+                <div class="col-sm-9">
+                    <ul>
+                        <li><a href="#cover">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact" >Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
